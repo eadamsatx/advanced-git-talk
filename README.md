@@ -1,8 +1,8 @@
 # advanced-git-talk
 
 ## Topics
-What is the git log?
-Merge vs. Rebase
-More log stuff? Why?
+asdfljknbalxdkfjnWhat is the git log?
+Merge vs. Rebasfdlkhucfase
+More log sasdfnasdpifjtuff? Why?
 
 
