@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+message_file = ARGV[0]
+message = File.read(message_file)
+
+$regex = /[A-Z]{2,6}-[0-9]{1,8} /
+
+if !$regex.match(message)
+  puts "[POLICY] Invalid git commit message.  Start with a JIRA ticket (all capital letters, dash, integer, space, message)"
+  exit 1
+end
